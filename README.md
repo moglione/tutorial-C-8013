@@ -9,7 +9,7 @@ Los archivos también están numerados y cubren cada uno un aspecto único del l
 
 Cada archivo tiene una explicación básica del tema a tratar, un programa de ejemplo que se debería compilar y ejecutar, y por ultimo uno o dos desafíos de programación para poner a prueba lo aprendido
 
-Este tutorial esta específicamente enfocado para el curso de Taller de Informática del 3er año de Electrónica del Colegio San José (8013) de Rosario.
+Este tutorial esta específicamente enfocado para el trayecto de enseñanza del lenguaje C en el Taller de Informática de la especialidad de Electrónica del Colegio San José (8013) de Rosario.
 
 La versión actual es la 1.00 y a medida que se encuentren fallas o mejoras se irá actualizando.
 

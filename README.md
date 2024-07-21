@@ -1,5 +1,6 @@
 # tutorial-C-8013
 Este es un tutorial básico de lenguaje C.
+
 Está dividido en 9 carpetas numeradas, donde cada carpeta cubre un aspecto básico del lenguaje, y la numeración indica el camino a seguir, desde donde empezar (carpeta 1) y hasta donde llegar  (carpeta 9).
 
 Cada carpeta tiene archivos de código C que se pueden ejecutar en cualquier compilador o IDE compatible con ANSI C 99.

@@ -11,7 +11,7 @@ Cada archivo tiene una explicación básica del tema a tratar, un programa de ej
 
 Este tutorial esta específicamente enfocado para el curso de Taller de Informática del 3er año de Electrónica del Colegio San José (8013) de Rosario.
 
-La versión actual es la 1.00 y a mediad que se encuentren fallas o mejoras se irá actualizando.
+La versión actual es la 1.00 y a medida que se encuentren fallas o mejoras se irá actualizando.
 
 Cualquier sugerencia será bien recibida. 
 Escribir a moglione@gmail.com

@@ -1,8 +1,8 @@
 /*
 ------------------------------------------------------------------------------------
  Tutorial: float es un tipo de datos que se utiliza para representar 
- números de punto flotante(numeros con coma, con decimales).
- Tiene 6 dígitos decimales de precisión.
+ numeros de punto flotante(numeros con coma, con decimales).
+ Tiene 6 digitos decimales de precision.
  Por ejemplo, 10,327, -3,14, 11,234.
 ------------------------------------------------------------------------------------
 */
@@ -20,7 +20,7 @@ int main()
 }
 /*
 ------------------------------------------------------------------------------------
- Desafío: 
+ Desafio: 
  crear un programa que calcule (e imprima) el perimetro de un circulo a partir 
  de una variable que se llame R que sea el radio de dicho circulo.
 ------------------------------------------------------------------------------------

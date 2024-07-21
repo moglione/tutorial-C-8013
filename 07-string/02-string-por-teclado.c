@@ -23,7 +23,7 @@ int main(){
 
 /*
 ------------------------------------------------------------------------------------
- Desafío: 
+ Desafio: 
  Escriba un program quye pida al usuario su nombre, su edad y su nacionalidad que
  luego imprima esos datos por pantalla.
 ------------------------------------------------------------------------------------

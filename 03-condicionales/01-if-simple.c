@@ -1,12 +1,12 @@
 /*
 ------------------------------------------------------------------------------------
- Declaración if simple
- En declaración if si la expresión booleana se evalúa como verdadero, 
- entonces se ejecutará el bloque  a continuacion de if
- de lo contrario, si se evalua como falso NO se ejecutará el bloque.
+ Declaracion if simple
+ En declaracion if si la expresion booleana se evalua como verdadero, 
+ entonces se ejecutara el bloque  a continuacion de if
+ de lo contrario, si se evalua como falso NO se ejecutara el bloque.
  ------------------------------------------------------------------------------------
  La sintaxis general de if en C es:
- si (expresión_booleana) 
+ si (expresion_booleana) 
  {
       //bloque que se ejecuta solo si 
       // la expresion_booleana
@@ -24,7 +24,7 @@ int main(){
     int hora;
 
     printf("Digite la hora: ");
-    scanf("%d", &dia_semana);
+    scanf("%d", &hora);
 
     if(hora<12){
         printf("buen dia");
@@ -46,8 +46,8 @@ int main(){
 /*
 ------------------------------------------------------------------------------------
 desafio :
- Usando varios if, escriba un programa que lea un número entero entre
- 1 y 7 e imprima el día de la semana correspondiente a ese número. Es decir, el domingo
- si es 1, lunes, si es 2, y así sucesivamente. 
+ Usando varios if, escriba un programa que lea un numero entero entre
+ 1 y 7 e imprima el dia de la semana correspondiente a ese numero. Es decir, el domingo
+ si es 1, lunes, si es 2, y asi sucesivamente. 
 ------------------------------------------------------------------------------------
 */

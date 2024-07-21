@@ -1,16 +1,16 @@
 /*
 -------------------------------------------------------------------------------------
- Este programa trata sobre cómo se pasan los argumentos a una función.
+ Este programa trata sobre como se pasan los argumentos a una funcion.
 
-- Para llamar a una función específica en C, necesitamos hacer coincidir la 
- llamada a la función con  la firma de la función, es decir, si alguna función 
- toma un argumento de tipo int,  luego, para llamar a esa función, también necesitamos 
- pasar un parámetro de tipo int cuando la llamo.
+- Para llamar a una funcion especifica en C, necesitamos hacer coincidir la 
+ llamada a la funcion con  la firma de la funcion, es decir, si alguna funcion 
+ toma un argumento de tipo int,  luego, para llamar a esa funcion, tambien necesitamos 
+ pasar un parametro de tipo int cuando la llamo.
 
 - Hay funciones que NO necesitan parametros para realizar su trabajo 
 
-- Para llamar a una función necesitamos pasar la misma cantidad de parámetros, con
-el mismo tipo y el mismo orden en el que estan declarados en la definicion de la función.
+- Para llamar a una funcion necesitamos pasar la misma cantidad de parametros, con
+el mismo tipo y el mismo orden en el que estan declarados en la definicion de la funcion.
 -------------------------------------------------------------------------------------
 */
 
@@ -74,16 +74,16 @@ una funcion "main" por programa
 ***********************************************/
 int main()
 {
-    //se llama a la función cuadrado() y se imprime el resultado en pantalla.
+    //se llama a la funcion cuadrado() y se imprime el resultado en pantalla.
     printf("\nEl cuadrado de 3 es: %d", cuadrado(3));
 
-    //se llama a la función suma() y se imprime el resultado en pantalla.
+    //se llama a la funcion suma() y se imprime el resultado en pantalla.
     printf("\nla suma de 30 + 50 es: %d", suma(30, 50));
 
-   //se llama a la función resta() y se imprime el resultado en pantalla.
+   //se llama a la funcion resta() y se imprime el resultado en pantalla.
    printf("\nla resta de 50 - 30 es: %d", resta(50, 30));
 
-   //se llama a la función imprimirCubo().
+   //se llama a la funcion imprimirCubo().
    imprimirCubo(4);
 
    //se llama a la funcion despedida
@@ -94,14 +94,14 @@ int main()
 }
 /*
 ------------------------------------------------------------------------------------
- Desafío: 
+ Desafio: 
  escribir un programa para imprimir la tabla de multiplicar de un 
- número específico usando una función.
+ numero especifico usando una funcion.
  
  Por ejemplo:
- - Si llamas a la función tablaMultiplicar(5), entonces tu programa imprimirá la
+ - Si llamas a la funcion tablaMultiplicar(5), entonces tu programa imprimira la
  tabla de multiplicar del 5. 
- - Si llamas a la función tablaMultiplicar(7), entonces tu programa imprimirá la
+ - Si llamas a la funcion tablaMultiplicar(7), entonces tu programa imprimira la
  tabla de multiplicar del 7 en la pantalla.
 ------------------------------------------------------------------------------------
 */

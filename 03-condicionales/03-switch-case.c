@@ -1,39 +1,39 @@
 /*
 ------------------------------------------------------------------------------------
- La declaración switch se utiliza para realizar diferentes acciones 
- según diferentes condiciones. La switch se evalúa una vez y este valor se 
+ La declaracion switch se utiliza para realizar diferentes acciones 
+ segun diferentes condiciones. La switch se evalua una vez y este valor se 
  compara con los valores  de cada case. Si hay una coincidencia, entonces 
- se ejecuta el bloque de código asociado con ese case. 
+ se ejecuta el bloque de codigo asociado con ese case. 
 
- si ningun case conincide se ejecuta el bloque de código default. 
+ si ningun case conincide se ejecuta el bloque de codigo default. 
  Los valores enteros y de caracteres pueden ser utilizado en la 
- condición de verificación. Cuando se utilizan variables char, inicialícelas 
+ condicion de verificacion. Cuando se utilizan variables char, inicialicelas 
  siempre entre ''(comillas simples). Las declaraciones break se utilizan para terminar 
  una secuencia de declaraciones.
  Si no hay declaraciones de break entre casos, los casos que siguen al caso coincidente 
- se ejecutarán hasta que se ejecute una declaración de interrupción.
+ se ejecutaran hasta que se ejecute una declaracion de interrupcion.
  
  Sintaxis:
-  switch (elección)
+  switch (eleccion)
   {
   
   case 1:
-    // Declaración o bloque de código que se ejecutará si elección = 1
+    // Declaracion o bloque de codigo que se ejecutara si eleccion = 1
   break;
   
   caso 2: 
-   // Declaración o bloque de código que se ejecutará si elección = 2
+   // Declaracion o bloque de codigo que se ejecutara si eleccion = 2
   break;
   .
   .
   .
   case n: 
-  // Declaración o bloque de código que se ejecutará si elección = n
+  // Declaracion o bloque de codigo que se ejecutara si eleccion = n
   break;
   
   default: 
-    // Declaración o bloque de código que se ejecutará si la 
-    // elección no coincide con ninguno de los casos
+    // Declaracion o bloque de codigo que se ejecutara si la 
+    // eleccion no coincide con ninguno de los casos
   }
 -------------------------------------------------- ----------------------------------
 */
@@ -59,11 +59,11 @@ int main()
             printf("\nSu eleccion es 3\n");  // Statement or block of code which will be executed if choice = 3
         
         case 4:
-            printf("\nSe ejecuta ya que no hay interrupción en el cas3. 3\n");  // Statement or block of code which will be executed if choice = 4
+            printf("\nSe ejecuta ya que no hay interrupcion en el cas3. 3\n");  // Statement or block of code which will be executed if choice = 4
         break;
         
         default:
-            printf("\nLa elección ingresada no es una de las opciones 1, 2, 3, 4.\n");  // Statement which will be executed if choice does not match any of the cases
+            printf("\nLa eleccion ingresada no es una de las opciones 1, 2, 3, 4.\n");  // Statement which will be executed if choice does not match any of the cases
         break;
     }
     
@@ -71,10 +71,10 @@ int main()
 }
 /*
 ------------------------------------------------------------------------------------
- Desafío: 
+ Desafio: 
  haga una calculadora basica (suma, resta, multiplacion y division), para dos
  operandos, usando un switch case para eegir que operacion hacer (Intente usar 
- caracteres para las opciones del menú)
+ caracteres para las opciones del menu)
 
 ejemplo:
 

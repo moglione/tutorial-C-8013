@@ -1,9 +1,9 @@
 /*
 ------------------------------------------------------------------------------------
-Un bucle for se utiliza para repetir un bloque de código específico 
-un número conocido de veces.
+Un bucle for se utiliza para repetir un bloque de codigo especifico 
+un numero conocido de veces.
 Sintaxis: 
-for (valor inicial ; condición ; incremento/decremento)
+for (valor inicial ; condicion ; incremento/decremento)
 {
     // hacer muchas cosas
     // mientras el bucle for se ejecuta
@@ -26,7 +26,7 @@ int main()
 }
 /*
 ------------------------------------------------------------------------------------
-Desafío: 
-use un bucle for para sumar números del 1 al 10.
+Desafio: 
+use un bucle for para sumar numeros del 1 al 10.
 ------------------------------------------------------------------------------------
 */

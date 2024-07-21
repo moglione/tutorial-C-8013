@@ -1,8 +1,8 @@
 /* 
 ------------------------------------------------------------------------------------
-Este programa muestra el funcionamiento de los operadores aritméticos. 
+Este programa muestra el funcionamiento de los operadores aritmeticos. 
 La variable x se utiliza primero para almacenar la suma 
-de los dos números, luego su diferencia,  producto, etcétera.
+de los dos numeros, luego su diferencia,  producto, etcetera.
 ------------------------------------------------------------------------------------
 */
 
@@ -61,8 +61,8 @@ int main()
 }
 /*
 ------------------------------------------------------------------------------------
- Desafío: 
- tome 2 números como entradas del usuario. 
+ Desafio: 
+ tome 2 numeros como entradas del usuario. 
  Realice las operaciones anteriores en las entradas y imprima una aviso que diga
  el resultado de cada operacion es par o impar. 
 ------------------------------------------------------------------------------------

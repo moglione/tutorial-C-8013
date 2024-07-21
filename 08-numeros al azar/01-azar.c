@@ -1,15 +1,15 @@
 /*---------------------------------------------------------------------------
 
--Para generar numeros al azar en C se utiliza la función rand().  
--rand() genera números pseudoaleatorios (no totalmente aleatorios). 
--rand() generar números al azar en el rango de 0 a 32787.
--La función rand() es parte de la biblioteca <stdlib.h>, 
-por lo que para usar esta función, debemos incluir esta biblioteca.
--La función rand() utiliza de forma predeterminada el valor 1 como semilla 
-para generar números pseudo aleatorios, lo que genera la misma secuencia de 
-números aleatorios cada vez que se la llama. Para evitar esto, podemos 
-utilizar la función srand() para especificar una nueva semilla 
-para la función rand() cada vez que se ejecuta el programa.
+-Para generar numeros al azar en C se utiliza la funcion rand().  
+-rand() genera numeros pseudoaleatorios (no totalmente aleatorios). 
+-rand() generar numeros al azar en el rango de 0 a 32787.
+-La funcion rand() es parte de la biblioteca <stdlib.h>, 
+por lo que para usar esta funcion, debemos incluir esta biblioteca.
+-La funcion rand() utiliza de forma predeterminada el valor 1 como semilla 
+para generar numeros pseudo aleatorios, lo que genera la misma secuencia de 
+numeros aleatorios cada vez que se la llama. Para evitar esto, podemos 
+utilizar la funcion srand() para especificar una nueva semilla 
+para la funcion rand() cada vez que se ejecuta el programa.
 
 ------------------------------------------------------------------------------*/
 
@@ -36,13 +36,14 @@ int main()
     // que cambia cada vez que se ejecuta el programa, en este caso
     // la cantidad de segundos desde la fecha epoch
     srand(segundos);
+    printf("semilla para generar los numero aleatorios = %ld\n", segundos);
 
     // ahora se generan 20 numeros aleatorios del 1 al 6
     for (i = 0; i < 20; ++i) {
         // la funcion rand genera numero entre el rango 0 - 32787
         // por eso hay que hacer una serie de operaciones
         // matematicas para obtener un numero entre 1 y 6
-        dado = (rand () % 6) + 1
+        dado = (rand () % 6) + 1;
         printf ("%d\n", dado);
     }
 

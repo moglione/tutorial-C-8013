@@ -1,38 +1,38 @@
 /*
 ------------------------------------------------------------------------------------
-- Una función es un bloque de código que solo se ejecuta cuando se lo llama.
-- Puede pasarle datos, conocidos como parámetros, a una función.
+- Una funcion es un bloque de codigo que solo se ejecuta cuando se lo llama.
+- Puede pasarle datos, conocidos como parametros, a una funcion.
 
 
-- La sintaxis de una función es asi:
+- La sintaxis de una funcion es asi:
   
-    tipo_función nombre_función (tipo y nombre de argumentos) 
+    tipo_funcion nombre_funcion (tipo y nombre de argumentos) 
     {
           //bloque de sentencias
     } 
 
 
 - El tipo de retorno es el tipo de datos (como: int, char, float, etc.) 
-  que la función va a devolver.
+  que la funcion va a devolver.
 
-- Cada función tiene un nombre por el cual es conocida por el resto del programa. 
-- Normalmente, cada función realiza una acción, por lo que el nombre debería dejar claro qué hace esa funcion.
-- El nombre de una función en C puede ser cualquier cosa, desde una sola letra hasta una palabra larga.
+- Cada funcion tiene un nombre por el cual es conocida por el resto del programa. 
+- Normalmente, cada funcion realiza una accion, por lo que el nombre deberia dejar claro que hace esa funcion.
+- El nombre de una funcion en C puede ser cualquier cosa, desde una sola letra hasta una palabra larga.
 - Una funcion definida por el usuario no puede llamarse main. 
 
-- La lista de parámetros es el nombre de todos los parámetros con su tipo de datos 
-  que se pasarán en la función.
+- La lista de parametros es el nombre de todos los parametros con su tipo de datos 
+  que se pasaran en la funcion.
 
 - La funcion tiene que estar definida antes de usarse.
 ------------------------------------------------------------------------------------
 */
 
 // se incluye el archivo de cabecera
-#include<stdio.h>  // se incluye <stdio.h> para usar la función printf()
+#include<stdio.h>  // se incluye <stdio.h> para usar la funcion printf()
 
 
 ////////////////////////////////////////////////////////////////////////// 
-// Se define la funcion "max" que devuelve el máximo entre dos números 
+// Se define la funcion "max" que devuelve el maximo entre dos numeros 
 // la primera linea define
 // valor devuelto por la funcion
 // nombre de la funcion
@@ -67,12 +67,12 @@ int main() {
 
 /*
 ------------------------------------------------------------------------------------
- Desafío:
- Escriba un programa usando una función que calcule el factorial del número dado 
+ Desafio:
+ Escriba un programa usando una funcion que calcule el factorial del numero dado 
  por el usuario.
  
  - ejemplo:
- - si llamaste a la función fact(5), debería devolver 120 (1 * 2 * 3 * 4 * 5).
- - si llamaste a la función fact(3), debería devolver 6 (1 * 2 * 3).
+ - si llamaste a la funcion fact(5), deberia devolver 120 (1 * 2 * 3 * 4 * 5).
+ - si llamaste a la funcion fact(3), deberia devolver 6 (1 * 2 * 3).
 ------------------------------------------------------------------------------------
 */
